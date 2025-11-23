@@ -5,7 +5,8 @@ import AccountForm from "./components/AbrirCuenta";
 import TransactionForm from "./components/Movimientos";
 import AccountList from "./components/ListaCuentas";
 
-const API = "http://localhost:3000/api";
+// const API = "http://localhost:3000/api";
+const API = "https://back-banco.onrender.com/api";
 
 export default function App() {
   const [accounts, setAccounts] = useState([]);
