@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:3000/api/accounts";
+const API = "https://back-banco.onrender.com/api/accounts";
+// const API = "http://localhost:3000/api/accounts";
 
 export default function AccountForm({ onCreated }) {
   const [idNumber, setIdNumber] = useState("");
